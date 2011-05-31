@@ -1,5 +1,5 @@
 php_extensions:
-apc
+	- apc
 	- bcmath
 	- bz2
 	- calendar
