@@ -1,19 +1,23 @@
-php_version: 5.3.5
-php_extensions:
+php_version: 5.2.17
+php_extensions :
 	- apc
+	- apd
 	- bcmath
+	- big_int
+	- bitset
 	- bz2
 	- calendar
 	- ctype
 	- curl
+	- dbase
 	- dba
 	- dom
 	- eaccelerator
-	- enchant
 	- exif
 	- fileinfo
 	- filter
 	- ftp
+	- funcall
 	- gd
 	- gender
 	- gettext
@@ -21,8 +25,8 @@ php_extensions:
 	- gnupg
 	- hash
 	- http
+	- huffman
 	- iconv
-	- imagick
 	- imap
 	- interbase
 	- intl
@@ -31,15 +35,20 @@ php_extensions:
 	- json
 	- ldap
 	- lzf
-	- magickwand
 	- mbstring
 	- mcrypt
 	- memcache
+	- mhash
+	- mime_magic
+	- ming
+	- mogilefs
 	- mssql
 	- mysqli
 	- mysql
 	- ncurses
+	- newt
 	- oauth
+	- params
 	- parsekit
 	- pcntl
 	- pdo_dblib
@@ -61,10 +70,12 @@ php_extensions:
 	- snmp
 	- soap
 	- sockets
+	- spl_types
 	- sqlite
 	- stats
 	- stomp
 	- svn
+	- sybase
 	- sysvmsg
 	- sysvsem
 	- sysvshm
@@ -80,7 +91,8 @@ php_extensions:
 	- xmlrpc
 	- xml
 	- xmlwriter
+	- xrange
 	- xsl
 	- yaml
-	- ZendGuardLoader
+	- ZendOptimizer
 	- zip
