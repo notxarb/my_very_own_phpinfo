@@ -1,1 +1,2 @@
 php_version: 5.3.6
+php_extensions: [gd]
