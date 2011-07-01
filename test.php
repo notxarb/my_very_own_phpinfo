@@ -1,6 +1,6 @@
 <?php
-//header("Content-Type: image/png");
-
+header("Content-Type: image/png");
+ini_set('memory_limit', '1G');
 
 $x = 10000;
 $y = 10000;
