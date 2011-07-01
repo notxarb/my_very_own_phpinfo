@@ -2,14 +2,14 @@
 header("Content-Type: image/png");
 
 
-$x = 200;
-$y = 200;
+$x = 1000;
+$y = 1000;
 
 $gd = imagecreatetruecolor($x, $y);
  
-$corners[0] = array("x" => 100, "y" =>  10);
-$corners[1] = array("x" =>   0, "y" => 190);
-$corners[2] = array("x" => 200, "y" => 190);
+$corners[0] = array("x" => 500, "y" =>  10);
+$corners[1] = array("x" =>   0, "y" => 990);
+$corners[2] = array("x" => 1000, "y" => 990);
 
 $red = imagecolorallocate($gd, 255, 0, 0);
 
