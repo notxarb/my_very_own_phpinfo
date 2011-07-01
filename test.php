@@ -13,7 +13,7 @@ $corners[2] = array("x" => 10000, "y" => 9990);
 
 $red = imagecolorallocate($gd, 255, 0, 0);
 
-for ($i = 0; $i < 1000000; $i++) {
+for ($i = 0; $i < 100000; $i++) {
   imagesetpixel($gd, round($x),round($y), $red);
   $a = rand(0, 2);
   $x = ($x + $corners[$a]["x"]) / 2;
