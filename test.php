@@ -1,5 +1,5 @@
 <?php
-header("Content-Type: image/png");
+//header("Content-Type: image/png");
 
 
 $x = 10000;
