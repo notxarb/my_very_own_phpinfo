@@ -1,4 +1,6 @@
 <?php
+header("Content-Type: image/png");
+
 
 $x = 200;
 $y = 200;
@@ -17,5 +19,5 @@ for ($i = 0; $i < 100000; $i++) {
   $x = ($x + $corners[$a]["x"]) / 2;
   $y = ($y + $corners[$a]["y"]) / 2;
 }
- 
+imagepng($gd); 
 ?>
