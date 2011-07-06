@@ -2,7 +2,7 @@
 header("Content-Type: image/png");
 
 $x = 300;
-$y = 3000;
+$y = 300;
 
 $gd = imagecreatetruecolor($x, $y);
  
