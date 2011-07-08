@@ -4,7 +4,7 @@
 <body>
 <?php
 for($i = 0; $i < 100; $i++)
-echo "$i<br />"; 
+echo ($i +1) . "<br />"; 
 ?>
 </body>
 </html>
