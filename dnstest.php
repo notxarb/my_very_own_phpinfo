@@ -1,3 +1,4 @@
 <?php
-echo gethostbyname ( "www.pagodabox.com" );
+    $ip = gethostbyname( "www.pagodabox.com" );
+    echo $ip;
 ?>
