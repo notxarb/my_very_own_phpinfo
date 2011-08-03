@@ -1,2 +1,7 @@
 php_version: 5.3.6
 php_extensions: [gd]
+shared_writable_dirs:
+    - test
+    - test2
+    - test/dir
+    - test/dir/nested
