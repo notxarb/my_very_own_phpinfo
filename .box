@@ -1,3 +1,3 @@
-php_version: 5.3.5
-php_extensions: ["apc", "bcmath", "bz2", "calendar", "curl", "dba", "eaccelerator", "enchant", "exif", "ftp", "gd", "gettext", "gmp", "http", "igbinary", "imap", "interbase", "intl", "ixed", "ldap", "magickwand", "mbstring", "mcrypt", "memcache", "mssql", "mysqli", "mysql", "ncurses", "pcntl", "pdo_dblib", "pdo_firebird", "pdo_mysql", "pdo_pgsql", "pgsql", "pspell", "readline", "recode", "shmop", "snmp", "soap", "sockets", "sysvmsg", "sysvsem", "sysvshm", "tidy", "timezonedb", "wddx", "xmlrpc", "xsl", "ZendGuardLoader", "zip", "ctype", "dom", "fileinfo", "filter", "hash", "iconv", "ioncube_loader", "json", "pdo", "pdo_sqlite", "posix", "session", "simplexml", "sqlite", "xdebug", "xmlreader", "xml", "xmlwriter", "gender", "gnupg", "lzf", "oauth", "parsekit", "phar", "rar", "stats", "stomp", "svn", "tokenizer", "uploadprogress", "xattr", "yaml", "mongo"]
+php_version: 5.3.6
+php_extensions: ["sphinx"]
 
