@@ -1,5 +1,5 @@
 <?php
-    $ip = gethostbyname( "www.pagodabox.com" );
+    $ip = gethostbyname( "mailqueue.pagodabox.com" );
     echo $ip;
     //adding comment
 ?>
