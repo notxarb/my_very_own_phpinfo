@@ -1,4 +1,0 @@
-web1:
-  kind: php
-  php_extensions:
-    - pdo_mysql
