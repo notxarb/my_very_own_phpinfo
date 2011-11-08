@@ -1,5 +1,6 @@
 web1:
   kind: php
+  php_version: 5.2.17
   php_extensions:
     - pdo_mysql
     - gd
