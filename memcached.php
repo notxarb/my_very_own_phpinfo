@@ -1,9 +1,9 @@
 <?php
 if (isset($_SERVER['CACHE2_HOST'])) {
-    $memcache = new Memcache;
-    $memcache->addServer($_SERVER['CACHE2_HOST'], $_SERVER['CACHE2_PORT'] );
-    $memcache->set("test_key", "test_value");
-    $value = $memcache->get("test_key");
+    $memcached = new Memcached();
+    $memcached->addServer($_SERVER['CACHE2_HOST'], $_SERVER['CACHE2_PORT'] );
+    $memcached->set("test_key", "test_value");
+    $value = $memcached->get("test_key");
     if ($value == "test_value") {
         echo "matches!";
     }
