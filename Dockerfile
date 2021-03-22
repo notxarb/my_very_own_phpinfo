@@ -1,4 +1,4 @@
-FROM php:7.1-apache
+FROM php:8.0-apache
 
 ENV APACHE_RUN_DIR /var/run/apache2
 ENV APACHE_LOG_DIR /var/log/apache2
