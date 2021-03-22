@@ -1,4 +1,6 @@
 <?php
+// Start Session
+session_start();
 // Show banner
 echo '<b>Session Support Checker</b><hr />';
 // Check if the page has been reloaded
