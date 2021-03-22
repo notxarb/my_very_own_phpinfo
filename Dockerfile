@@ -42,4 +42,4 @@ RUN mv php.ini /usr/local/etc/php/php.ini
 
 # Configure apache with configurations for sub projects
 RUN mv /var/www/html/sites-available/* /etc/apache2/sites-available && \
-    ln -s /etc/apache2/sites-available/default.conf /etc/apache2/sites-enabled/ && \
+    ln -s /etc/apache2/sites-available/default.conf /etc/apache2/sites-enabled/
