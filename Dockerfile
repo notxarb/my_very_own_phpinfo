@@ -19,7 +19,7 @@ RUN /usr/local/bin/docker-php-ext-install opcache mysqli mbstring ftp sockets so
 # Install PECL extensions
 RUN pecl install igbinary-2.0.8 && \
     /usr/local/bin/docker-php-ext-enable igbinary && \
-    pecl install --configureoptions 'enable-redis-igbinary="yes"' redis-5.3.3 && \
+    pecl install --configureoptions 'enable-redis-igbinary="yes"' redis-5.1.1 && \
     /usr/local/bin/docker-php-ext-enable redis;
 
 # Configure Apache modules
